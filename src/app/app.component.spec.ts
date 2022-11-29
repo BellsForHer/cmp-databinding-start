@@ -19,7 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'cmp-databinding-start'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('cmp-databinding-start');
   });
 
   it('should render title', () => {
